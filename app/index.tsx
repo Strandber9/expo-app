@@ -10,6 +10,7 @@ export default function Index() {
       }}
     >
       <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text>안녕하세요! 👌👌👌</Text>
     </View>
   );
 }
