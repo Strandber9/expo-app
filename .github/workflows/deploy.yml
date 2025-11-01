@@ -37,8 +37,6 @@ jobs:
 
       - name: Build web app
         run: npx expo export --platform web
-        env:
-          EXPO_PUBLIC_URL: https://strandber9.github.io/expo-app/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
